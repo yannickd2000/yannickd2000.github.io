@@ -58,6 +58,22 @@ button {
     width: 100%;
     max-width: 300px;
     transition: background 0.2s, transform 0.1s;
+    margin-top: 10px;
 }
 
-button:hover
+button:hover {
+    background: #ffdb4d;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#resetGame {
+    background: #d9534f;
+    color: white;
+}
+
+#resetGame:hover {
+    background: #c9302c;
+}
