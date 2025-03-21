@@ -24,6 +24,13 @@ h1 {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
 .card {
     background: white;
     color: black;
